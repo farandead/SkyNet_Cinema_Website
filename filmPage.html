@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKYNET - Book Your Movie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainPage.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slidshow.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="carousal.css">
+    <link rel="stylesheet" href="movieBanner.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+    <link rel="stylesheet" href="filmPage.css">
+    <style>
+        .cardButton {
+            border: none;
+            background-color: rgba(26, 25, 25, 0);
+            margin: 0%;
+            padding: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navigationBar">
+        <ul id="navbar">
+            <div id="logoblock">
+                <a href="mainpage.php" class="link">
+                    <p id="logoMovie">
+                        SKYNET
+
+                    </p>
+                </a>
+
+            </div>
+            <div id="linksblock">
+                <li class="navbaritem"><a class="link" href="filmPage.html">Films</a></li>
+                <li class="navbaritem"><a class="link" href="#">Cinemas</a></li>
+                <li class="navbaritem"><a class="link" href="#">Experiences</a></li>
+                <li class="navbaritem"><a class="link" href="#">Offers & Membership</a></li>
+            </div>
+
+
+
+        </ul>
+        </div>
+        </ul>
+    </header>
+
+    <section class="bannerContainer">
+
+        <div class="slider-frame">
+            <div class="slide-images">
+                <div class="img-container">
+                    <img src="img/filmPageBanner.jpg" alt="" class="bannerImages" name="bannerImages">
+                </div>
+                <div class="img-container">
+                    <img src="img/filmPageBanner2.jpg" alt="" class="bannerImages" name="bannerImages">
+                </div>
+                <div class="img-container" style="height: 780px; width: 980px; ;">
+                    <img src="img/filmPageBanner3.jpg" alt="" class="bannerImages" name="bannerImages">
+                </div>
+                <div class="img-container">
+                    <img src="img/filmPageBanner.jpg" alt="" class="bannerImages" name="bannerImages">
+                </div>
+                <div class="img-container">
+                    <img src="img/filmPageBanner2.jpg" alt="" class="bannerImages" name="bannerImages">
+                </div>
+                <!-- <div class="img-container" style="height: 800px; width: 980px; ;">
+                    <img src="img/slideshowImage5.jpg" alt="" class="bannerImages" name="bannerImages">
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="bannerTextContainer">
+
+            <p id="bannerText">
+
+                BECOME A MEMBER OF SKYNET TO ENJOY DISCOUNTS
+                <a href="signUpPage.html"><button class="linkButton">Become a Member</button></a>
+
+            </p>
+        </div>
+    </section>
+    <section class="filmPage__heading">
+        <h3>Top Films</h3>
+    </section>
+
+
+
+    <form action="filmDetails.php" method="get">
+        <section class="container">
+            <div class="card">
+                <div class="cardImage">
+                    <button class="cardButton" name="movie" type="submit" value="1">
+                        <img src="img/badguys.jpg" alt="">
+                        <h3 class="title">The Bad Guys</h3>
+                    </button>
+                </div>
+            </div>
+
+            </div>
+            <div class="card">
+                <div class="cardImage">
+                    <button class="cardButton" name="movie" type="submit" value="2">
+                        <img src="img/Poster..jpg" alt="">
+                        <h3 class="title">Doctor Strange in the Multiverse of Madness</h3>
+                    </button>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="cardImage">
+                    <button class="cardButton" name="movie" type="submit" value="3">
+                        <img src="img/fantasticBeast.jpg" alt="">
+                        <h3 class="title">Fantastic Beasts: The Secrets of Dumbledore</h3>
+                    </button>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="cardImage">
+                    <button class="cardButton" name="movie" type="submit" value="4">
+                        <img src="img/Dwontown.jpg" alt="">
+                        <h3 class="title">Downton Abbey: A New Era</h3>
+                    </button>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="cardImage">
+                    <button class="cardButton" name="movie" type="submit" value="5">
+                        <img src="img/jurassicworld.jpg " alt="">
+                        <h3 class=" title">Jurassic World: Dominion
+                        </h3>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardImage">
+                    <button class="cardButton" name="movie" type="submit" value="6">
+                        <img src="img/morbius.jpg" alt="">
+                        <h3 class=" title">Morbius
+                        </h3>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardImage">
+                    <button class="cardButton" name="movie" type="submit" value="7">
+                        <img src="img/northman.jpg" alt="">
+                        <h3 class=" title">The Northman
+                        </h3>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardImage">
+                    <button class="cardButton" name="movie" type="submit" value="8">
+                        <img src="img/OperationMinceMeat..jpg" alt="">
+                        <h3 class=" title">The Operation Mince Meat
+                        </h3>
+                    </button>
+
+                </div>
+            </div>
+            </button>
+            <div class="card">
+                <button class="cardButton" name="movie" type="submit" value="9">
+                    <div class="cardImage">
+                        <img src="img/theLostCity.jpg" alt="">
+                        <h3 class=" title">The Lost City
+                        </h3>
+                    </div>
+                </button>
+            </div>
+            <div class="card">
+                <div class="cardImage">
+                    <button class="cardButton" name="movie" type="submit" value="10">
+                        <img src="img/sonicTheHedgeHog.jpg" alt="">
+                        <h3 class=" title">Sonic The Hedgehog 2
+                        </h3>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </form>
+
+
+
+    <div class="filmListHeading">
+        <h2>ALL FILMS</h2>
+    </div>
+
+    <form action="filmDetails.php" method="get">
+        <div class="filmList">
+
+            <div class="filmContainer">
+                <div class="filmContainer__card">
+                    <button class="cardButton" name="movie" type="submit" value="1">
+                        <div class="filmContainer__img">
+                            <img src="img/badguys.jpg" alt="">
+                        </div>
+                        <div class="filmContainer__title">
+                            <h3>The Bad Guys</h3>
+                        </div>
+                    </button>
+                </div>
+                <div class="filmContainer__card">
+                    <button class="cardButton" name="movie" type="submit" value="4">
+                        <div class="filmContainer__img">
+                            <img src="img/Dwontown.jpg" alt="">
+                        </div>
+                        <div class="filmContainer__title">
+                            <h3>Downton Abbey: A New Era</h3>
+                        </div>
+                    </button>
+                </div>
+                <div class="filmContainer__card">
+
+                    <button class="cardButton" name="movie" type="submit" value="3">
+                        <div class="filmContainer__img">
+                            <img src="img/fantasticBeast.jpg" alt="">
+                        </div>
+                        <div class="filmContainer__title">
+                            <h3>Fantastic Beasts: The Secrets of Dumbledore</h3>
+                        </div>
+                    </button>
+                </div>
+                <div class="filmContainer__card">
+                    <button class="cardButton" name="movie" type="submit" value="5">
+                        <div class="filmContainer__img">
+                            <img src="img/jurassicworld.jpg" alt="">
+                        </div>
+                        <div class="filmContainer__title">
+                            <h3>Jurassic World: Dominion</h3>
+                        </div>
+                    </button>
+                </div>
+                <div class="filmContainer__card">
+                    <button class="cardButton" name="movie" type="submit" value="10">
+                        <div class="filmContainer__img">
+                            <img src="img/sonicTheHedgeHog.jpg" alt="">
+                        </div>
+                        <div class="filmContainer__title">
+                            <h3> Sonic The Hedgehog 2</h3>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="filmContainer">
+                <div class="filmContainer__card">
+                    <button class="cardButton" name="movie" type="submit" value="6">
+                        <div class="filmContainer__img">
+                            <img src="img/morbius.jpg" alt="">
+                        </div>
+                        <div class="filmContainer__title">
+                            <h3>Morbius</h3>
+                        </div>
+                    </button>
+                </div>
+                <div class="filmContainer__card">
+                    <button class="cardButton" name="movie" type="submit" value="7">
+
+                        <div class="filmContainer__img">
+                            <img src="img/northman.jpg" alt="">
+                        </div>
+                        <div class="filmContainer__title">
+                            <h3>The Northman</h3>
+                        </div>
+                    </button>
+                </div>
+                <div class="filmContainer__card">
+                    <button class="cardButton" name="movie" type="submit" value="8">
+                        <div class="filmContainer__img">
+                            <img src="img/OperationMinceMeat..jpg" alt="">
+                        </div>
+                        <div class="filmContainer__title">
+                            <h3>The Operation Mince Meat</h3>
+                        </div>
+                    </button>
+                </div>
+                <div class="filmContainer__card">
+                    <button class="cardButton" name="movie" type="submit" value="2">
+                        <div class="filmContainer__img">
+                            <img src="img/Poster..jpg" alt="">
+                        </div>
+                        <div class="filmContainer__title">
+                            <h3>Doctor Strange in the Multiverse of Madness</h3>
+                        </div>
+                    </button>
+                </div>
+                <div class="filmContainer__card">
+                    <button class="cardButton" name="movie" type="submit" value="9">
+                        <div class="filmContainer__img">
+                            <img src="img/theLostCity.jpg" alt="">
+                        </div>
+                        <div class="filmContainer__title">
+                            <h3>The Lost City</h3>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+
+    </div>
+    <section class="footerMenu">
+        <div class="footerMenu__container">
+            <ul class="footerMenu__list">
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Cookie Policy</a>
+                </li>
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Privacy and Legal</a>
+                </li>
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Corporate Responsibility</a>
+                </li>
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Modern Slavery Statement</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footerMenu__container">
+            <ul class="footerMenu__list">
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Contact Us</a>
+                </li>
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Help</a>
+                </li>
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Accessibility</a>
+                </li>
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Allergen and Nutritional Information</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footerMenu__container">
+            <ul class="footerMenu__list">
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">About us</a>
+                </li>
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Careers</a>
+                </li>
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Corporate Events</a>
+                </li>
+                <li class="footerMenu__listItem">
+                    <a href="" class="link"><strong>SKYNET</strong> Scene</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footerMenu__container">
+            <ul class="footerMenu__list">
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">iOS App</a>
+                </li>
+                <li class="footerMenu__listItem">
+                    <a href="" class="link">Android App</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="legalFooter">
+        <div class="legalFooter__description">
+            <p>© <STrong>SKYNET</STrong> Cinemas Limited 2019 to 2022. All rights reserved</p>
+        </div>
+        <div class="legalFooter_socialIcons">
+            <img src="img/facebook.png" alt="">
+            <img src="img/instagram.png" alt="">
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>

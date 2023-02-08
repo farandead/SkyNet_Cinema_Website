@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie -Your One Stop Source of Unlimited Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainPage.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0font-awesome.min.css">
+    <link rel="stylesheet" href="slidshow.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="carousal.css">
+    <link rel="stylesheet" href="movieBanner.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+    <link rel="stylesheet" href="popUpLogin.css">
+    <link rel="stylesheet" href="loginPage.css">
+    <script src="js/stickyFooter.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<body>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        }
+    </script>
+
+    <header class="navigationBar">
+        <ul id="navbar">
+            <div id="logoblock">
+                <a href="mainpage.php" class="link">
+                    <p id="logoMovie">
+                        SKYNET
+
+                    </p>
+                </a>
+
+            </div>
+            <div id="linksblock">
+                <li class="navbaritem"><a class="link" href="filmPage.html">Films</a></li>
+                <li class="navbaritem"><a class="link" href="#">Cinemas</a></li>
+                <li class="navbaritem"><a class="link" href="#">Experiences</a></li>
+                <li class="navbaritem"><a class="link" href="#">Offers & Membership</a></li>
+            </div>
+
+            <div id="membershipblock">
+
+
+                <li><a class="link" href="signUpPage.html">Sign up</a></li>
+               
+                <br>
+                <br>
+                <li><a class="searchLogo" class="link" href=""> <i class="fa fa-search"
+                            style="font-size: xx-large;"></i> </a></li>
+
+
+
+        </ul>
+        </div>
+        </ul>
+    </header>
+
+
+    <section class="form-container">
+        <div class="form-container-heading">
+            <h2>Login SKYNET</h2>
+        </div>
+
+        <div class="form-container-form">
+
+            <form action="login.php" method="post">
+                <div class="form-container-username">
+                    <p class="form-container-para">Email</p>
+                    <input class="form-container-usernameinput" type="text" name="username">
+
+                </div>
+                <div class="form-container-password">
+                    <p class="form-container-para">Password</p>
+
+                    <input class="form-container-passwordinput" type="text" name="password">
+
+                </div>
+                <div class="form-container-button">
+                    <button class="form-container-loginButton" name="login">Login</button>
+
+                </div>
+            </form>
+            <div class="signedInCheckbox">
+                <form action="">
+                    <div class="checkbox">
+                        <input id="check" name="check" type="checkbox" />
+                        <label for="check"></label><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Keep me signed in</span>
+                    </div>
+                </form>
+            </div>
+            <div class="forgetlink">
+
+                <a href="" class="forgotPassword" class="link">Forgot Password</a>
+               
+            </div>
+            <div style="margin-top:20px ;" class="admin-signin">
+                <a   class="link forgotPassword"  href="">Admin? Sign in</a>
+            </div>
+            
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+</body>
+
+</html>

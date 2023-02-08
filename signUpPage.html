@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie -Your One Stop Source of Unlimited Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainPage.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slidshow.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="carousal.css">
+    <link rel="stylesheet" href="movieBanner.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+    <link rel="stylesheet" href="sign_up.css">
+    <script src="js/stickyFooter.js"></script>
+
+</head>
+
+<body>
+
+    <header class="navigationBar">
+        <ul id="navbar">
+            <div id="logoblock">
+                <a href="mainpage.html" class="link">
+                    <p id="logoMovie">
+                        SKYNET
+
+                    </p>
+                </a>
+
+            </div>
+            <div id="linksblock">
+                <li class="navbaritem"><a class="link" href="filmPage.html">Films</a></li>
+                <li class="navbaritem"><a class="link" href="#">Cinemas</a></li>
+                <li class="navbaritem"><a class="link" href="#">Experiences</a></li>
+                <li class="navbaritem"><a class="link" href="#">Offers & Membership</a></li>
+            </div>
+
+            <div id="membershipblock">
+
+
+                <li><a class="link" href="signUpPage.html">Sign up</a></li>
+                <li><a class="link" href="loginPage.html">Sign in</a></li>
+                <br>
+                <br>
+                <li><a class="searchLogo" class="link" href=""> <i class="fa fa-search"
+                            style="font-size: xx-large;"></i> </a></li>
+
+
+
+        </ul>
+        </div>
+        </ul>
+    </header>
+
+    <div class="sign_form">
+        <div class="sign_form_heading">
+            <h2>SIGN UP TO MYSKYNET</h2>
+        </div>
+        <form action="signIn.php" method="post">
+            <div class="sign_form-container">
+                <p class="sign_form-container-text">Email Address</p>
+                <input type="email" name="email" class="sign_form-container-input" required>
+            </div>
+            <div class="sign_form-container2">
+                <div class="sign_form-firstname">
+                    <p class="sign_form-container-text">First Name</p>
+                    <input type="text" name="firstname" class="sign_form-container-input" required>
+                </div>
+                <div class="sign_form-lastname">
+                    <p class="sign_form-container-text">Last Name</p>
+                    <input type="text" name="lastname" class="sign_form-container-input" required>
+                </div>
+            </div>
+            <div class="sign_form-container2">
+                <div class="sign_form-firstname">
+                    <p class="sign_form-container-text">Date of Birth</p>
+                    <input type="date" name="dateOfB" id="dateOfB" required>
+                </div>
+                <div class="sign_form-lastname">
+                    <p class="sign_form-container-text">Primary Cinema</p>
+                    <select name="primaryCinema" id="primaryCinema" required>
+                        <option style="color:#0281ff7c;" value="" disabled selected hidden>Select a Primary Cinema
+                        </option>
+                        <option value="Birmingham"> Birmingham </option>
+                        <option value="London">London</option>
+                        <option value="Manchester">Manchester</option>
+                    </select>
+                </div>
+            </div>
+            <div class="sign_form-container">
+                <p class="sign_form-container-text">Address</p>
+                <input type="text" name="address" class="sign_form-container-input" required>
+            </div>
+            <div class="sign_form-container">
+                <p class="sign_form-container-text">Password</p>
+                <input type="password" name="password" class="sign_form-container-input" required>
+            </div>
+
+            <div class="sign_form-container3">
+                <p style="font-size: 15px;">Password must contain</p>
+                <ul>
+                    <li>One uppercase letter required</li>
+                    <li>One lowercase letter required</li>
+                    <li>One number required</li>
+                    <li>At least 10 characters required</li>
+                    <li>At least 1 special character required</li>
+                </ul>
+            </div>
+            <button id="sign_form_button" >Sign Up</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

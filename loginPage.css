@@ -1,0 +1,174 @@
+.form-container{
+    margin-top: 200px;
+    padding-top: 40px;
+    
+    width: 40%;
+    background-color: #01345c;
+    box-shadow: 1px 2px 84px -19px black;
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 80px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+.form-container-username{
+    display: flex;
+    flex-direction: column;
+   
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left:200px ;
+    margin-right: 200px;
+   
+    
+}
+.form-container-password{
+    display: flex;
+    flex-direction: column;
+   
+    align-content: center;
+    text-align: left;
+    margin-left:200px ;
+    margin-right: 200px;
+   
+    
+    
+    margin-bottom: 80px;
+}
+.form-container-usernameinput,.form-container-passwordinput{
+    background-color: rgba(255, 228, 196, 0);
+    border: none;
+    border-bottom: 1px solid gray;
+    
+    
+}
+.form-container-usernameinput:hover,.form-container-passwordinput:hover{
+    
+    border-bottom: 1px solid #0587eb;
+}
+
+.form-container-usernameinput:focus,.form-container-passwordinput:focus{
+    outline:#0587eb;
+}
+.form-container-button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+.bi-bi-lock-fill{
+    margin-right: 40px;
+}
+.bi-bi-person-square{
+    margin-right: 40px;
+}
+.form-container-loginButton{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 3px;
+    border-bottom-right-radius: 24px;
+    background-color: #ffffff00;
+    border: 1px solid white;
+}
+.form-container-loginButton:hover{
+   
+    background-color:#0587eb;
+    border: 1px solid #0587eb;
+    border-bottom-right-radius: 3px;
+}
+.forgotPassword{
+    text-decoration: none;
+    color: #0587eb;
+}
+.forgetlink{
+   
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+   background-blend-mode: screen;
+  }
+  
+  form {
+    flex: 1;
+    text-align: center;
+  }
+  
+  input[type="checkbox"] {
+    position: absolute;
+    visibility: hidden;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+  }
+  
+  .checkbox {
+    position: relative;
+  }
+  
+  label {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #efefef00;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  
+  input[type="checkbox"]:checked + label {
+    border: 10px solid  #356a7a;
+    animation: confirm 0.15s linear;
+  }
+  span{
+      padding-bottom: 4px;
+      margin-bottom: 4px;
+  }
+  
+  input[type="checkbox"]:checked + label:after {
+    content: '\f00c';
+    font-family: FontAwesome;
+    font-size: 15px;
+    line-height: 15px;
+    width: 20px;
+    height: 20px;
+    background: #038bb4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #ffffff;
+  }
+  
+  @keyframes confirm {
+    0% {
+      transform: scale(1);
+    }
+    
+    50% {
+      transform: scale(0.95)
+    }
+    
+    75% {
+      transform: scale(0.8);
+    }
+    
+    100% {
+      transform: scale(1);
+    }
+  }
+  .signedInCheckbox{
+      margin-top: 50px;
+      margin-right: 10px;
+  }

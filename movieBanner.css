@@ -1,0 +1,38 @@
+#movieBanner{
+    margin-top: 800px;
+    padding-bottom: 100px;
+    
+}
+#movieBanner img{
+    position: absolute;
+    z-index: -1;
+}
+
+.discriptionBanner{
+    float: left;
+    margin: 50px 219px;
+    z-index: 1;
+    width: 300px;
+    
+}
+.discriptionBanner__heading{
+    width: 500px;
+}
+
+.discriptionBanner div{
+    margin-top: 10px; 
+}
+
+.discriptionBanner .discriptionBanner__description{
+    padding-top: 10px;
+    
+    
+}
+.discriptionBanner__description h6{
+    font-size: smaller;
+}
+.discriptionBanner__link a{
+    color: #0281ff;
+}
+
+

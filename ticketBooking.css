@@ -1,0 +1,53 @@
+.remove-product{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    align-content: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    
+}
+.remove-product:hover{
+    background-color: #0281ff;
+    border: 1px solid #0281ff;
+}
+.mainContainer{
+    display: flex;
+    align-items: center;
+}
+.imageContainer{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.movie-heading{
+    display: flex;
+    
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.movie-heading h2{
+    font-family: 'Russo One', sans-serif;
+}
+.mainContainer{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+.imageContainer img{
+    border-radius: 8px;
+}
+
+.movie-heading{
+    margin-top: 20px;
+    
+}

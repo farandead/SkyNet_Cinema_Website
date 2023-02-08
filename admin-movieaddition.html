@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Addition</title>
+    <link rel="stylesheet" href="css/admin-mainpage.css"
+<body>
+    <div class="navigation-side-panel">
+        <button class="navigation-button">Add Movie</button>
+        <button class="navigation-button">Remove Movie</button>
+        <button class="navigation-button">Search User</button>
+    </div>
+
+<form action="admin-addition.php" method="POST">
+
+    
+    <div class="main-form-container">
+        <h1 style="margin-left:30px ;margin-top:60px ;">Movie Addition</h1>
+        <input type="text"style="margin-top:100px" class="addition-input" name="ID" placeholder="Enter Movie ID" required>
+        <input type="text" class="addition-input" name="IMG" placeholder="Enter Movie Image" required>
+        <input type="text" class="addition-input" name="MOVIENAME" placeholder="Enter Movie Name" required>
+        <input type="text" class="addition-input" name="DIRECTORS" placeholder="Enter Movie Director"required>
+        <input type="text" class="addition-input" name="CAST" placeholder="Enter Movie Cast" required>
+        <input type="text" class="addition-input" name="SYNOPSIS" placeholder="Enter Movie Synopsis" required>
+        <input type="text" class="addition-input" name="RELEASEDATE" placeholder="Enter Movie Release Date" required>
+        <input type="text" class="addition-input" name="CATAGORY" placeholder="Enter Movie Category" required>
+        <input type="text" style="margin-bottom: 50x;" class="addition-input" name="TRAILER" placeholder="Enter Movie Trailer" required>
+        <button id="movie-addition-button">Add Movie</button>
+    </div>
+
+</form>
+    
+</body>
+</html>
+<!DOCTYPE html> <html lang="en-US">   <head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1">     <title>Today's Date</title> </head>   <body>      <script>       let d = new Date();       document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"   </script>   </body>   </html>
